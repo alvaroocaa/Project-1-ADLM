@@ -30,7 +30,7 @@ This repository contains a CNN project for traffic signal/sign classification (a
 ### Installation
 ```bash
 pip install pillow numpy tensorflow matplotlib tensorflow-datasets kagglehub pandas
-```bash
+```
 
 ## Usage
 
