@@ -1,10 +1,10 @@
 # Project-1-ADLM
-## Object Localization and Classification of Traffic Signals
+## Object Detection for Traffic Sign Localization and Classificatio
 
 This repository contains a CNN project for traffic signal/sign classification (and localization, if implemented) using **transfer learning with MobileNetV2**.
 
 ## Files
-- **`P1.ipynb`** — Executed Jupyter Notebook with the full workflow (training/evaluation/prediction).
+- **`P1_ADLM_CNN.ipynb`** — Executed Jupyter Notebook with the full workflow (training/evaluation/prediction).
 - **`traffic_sign_model_final.keras`** — Trained **full model** (architecture + weights), ready for inference.
 - **`traffic_sign_weights_final.weights.h5`** — Trained **weights only** (requires the same model architecture before loading).
 
@@ -36,7 +36,7 @@ pip install pillow numpy tensorflow matplotlib tensorflow-datasets kagglehub pan
 
 1. Download/clone the repository.
 2. Install the required libraries.
-3. Open `P1.ipynb` in Jupyter Notebook/JupyterLab.
+3. Open `P1_ADLM_CNN.ipynb` in Jupyter Notebook/JupyterLab.
 4. Run the notebook or use the saved model files for inference.
 
 ## Notes
